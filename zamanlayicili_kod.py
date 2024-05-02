@@ -36,7 +36,7 @@ def Label_eleminator(input_path,output_path,dn_value):
     return
 
 def main_function(data_yol):
-    data1_path = r"C:\Users\polar\Desktop\kiyi_etiket\data1" +"\\" + data_yol
+    data1_path = r"C:\Users\polar\Desktop\kiyi_etiket" +"\\" + data_yol
     folderlist = []
     for foldername, subfolders, filenames in os.walk(data1_path):
         for filename in filenames:
